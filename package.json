@@ -1,0 +1,19 @@
+{
+  "name": "static-json-microservice",
+  "version": "1.0.0",
+  "description": "We needed a webservice that serves some arbitrary JSON data upon request. So here it is.",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enpit/static-json-microservice.git"
+  },
+  "author": "enpit GmbH & Co. KG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enpit/static-json-microservice/issues"
+  },
+  "homepage": "https://github.com/enpit/static-json-microservice#readme"
+}
