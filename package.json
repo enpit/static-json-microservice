@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/enpit/static-json-microservice/issues"
   },
-  "homepage": "https://github.com/enpit/static-json-microservice#readme"
+  "homepage": "https://github.com/enpit/static-json-microservice#readme",
+  "dependencies": {
+    "restify": "^4.1.1"
+  }
 }
