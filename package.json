@@ -4,7 +4,8 @@
   "description": "We needed a webservice that serves some arbitrary JSON data upon request. So here it is.",
   "main": "service.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,6 @@
   "homepage": "https://github.com/enpit/static-json-microservice#readme",
   "dependencies": {
     "restify": "^4.1.1"
-  }
+  },
+  "engines" : { "node" : "> 6.0" }
 }
