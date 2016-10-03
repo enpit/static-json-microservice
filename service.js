@@ -11,7 +11,6 @@ app.use((req, res, next) => {
 });
 
 app.get('/:filename', (req, res) => {
-  debugger;
   fs.readFile('./data/' + req.params.filename, 'utf-8', (err, data) => {
     if (!err) res.json(data);
   });
