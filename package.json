@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/enpit/static-json-microservice#readme",
   "dependencies": {
-    "restify": "^4.1.1"
+    "express": "^4.14.0"
   },
-  "engines" : { "node" : "> 6.0" }
+  "engines": {
+    "node": "> 6.0"
+  }
 }
